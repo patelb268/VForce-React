@@ -1,0 +1,46 @@
+nav {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: rgba(220, 215, 215, 0);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  border-bottom: #0c0d0d3d solid 1px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.cart {
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

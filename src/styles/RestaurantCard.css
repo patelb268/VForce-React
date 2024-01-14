@@ -1,0 +1,28 @@
+.cardStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  height: 450px;
+  margin-right: 20px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+  border-radius: 15px;
+}
+
+.cardStyle > .card__imag {
+  border: 1px transparent;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.cuisines {
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}

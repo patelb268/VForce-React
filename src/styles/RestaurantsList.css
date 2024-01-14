@@ -1,0 +1,10 @@
+.restaurants_list {
+  padding-top: 150px;
+  width: 100vw;
+  background-image: url("../assets/background.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}

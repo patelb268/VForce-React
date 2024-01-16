@@ -1,7 +1,8 @@
 .restaurants_list {
   padding-top: 150px;
-  width: 100vw;
   background-image: url("../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

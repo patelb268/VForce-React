@@ -19,13 +19,15 @@
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "preview": {
       "name": "preview",
-      "command": "yarn preview",
-      "runAtStart": false
+      "command": "yarn preview"
+    },
+    "npm i --save-dev @types/bootstrap": {
+      "name": "npm i --save-dev @types/bootstrap",
+      "command": "npm i --save-dev @types/bootstrap"
     }
   }
 }

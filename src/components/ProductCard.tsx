@@ -1,12 +1,13 @@
-import { IMG_URL, CRAD_STYLE, CARD_STYLE2 } from "../utilities/constants";
+import { IMG_URL, CRAD_STYLE, CARD_STYLE2 } from "../utils/constants";
 
 const ProductCard = (props) => {
-  const { thumbnail, title, price, description, rating, brand } = props.product;
+  const { thumbnail, title, price, description, rating, brand, category } =
+    props.product;
 
   //console.log(props.product)
 
   return (
-    <div className="card mt-5" style={CRAD_STYLE}>
+    <div>
       <div className="image-container">
         <img
           src={thumbnail}
@@ -21,6 +22,7 @@ const ProductCard = (props) => {
       </div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">{description}</li>
+        <li className="list-group-item">{category}</li>
         <li className="list-group-item">{rating}</li>
         <li className="list-group-item">{brand}</li>
       </ul>

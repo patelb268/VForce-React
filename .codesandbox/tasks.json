@@ -28,6 +28,34 @@
     "npm i --save-dev @types/bootstrap": {
       "name": "npm i --save-dev @types/bootstrap",
       "command": "npm i --save-dev @types/bootstrap"
+    },
+    "npm i react-router-dom": {
+      "name": "npm i react-router-dom",
+      "command": "npm i react-router-dom"
+    },
+    "npm install": {
+      "name": "npm install",
+      "command": "npm install"
+    },
+    "npm install --save-dev @types/react-router-dom": {
+      "name": "npm install --save-dev @types/react-router-dom",
+      "command": "npm install --save-dev @types/react-router-dom"
+    },
+    "npm install @types/react-router-dom --save-dev": {
+      "name": "npm install @types/react-router-dom --save-dev",
+      "command": "npm install @types/react-router-dom --save-dev"
+    },
+    "npm install react-loading-skeleton": {
+      "name": "npm install react-loading-skeleton",
+      "command": "npm install react-loading-skeleton"
+    },
+    "npm i @types/react-router-dom": {
+      "name": "npm i @types/react-router-domnpm i @types/react-router-dom",
+      "command": "npm i @types/react-router-dom"
+    },
+    "npm install --save-dev @types/react-loading-skeleton": {
+      "name": "npm install --save-dev @types/react-loading-skeleton",
+      "command": "npm install --save-dev @types/react-loading-skeleton"
     }
   }
 }
